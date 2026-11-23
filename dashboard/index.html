@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PREFLIGHT — the token launch radar</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="mark" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div>
+      <h1>PREFLIGHT</h1>
+      <p class="tag">A token launch radar — pre-token protocols ranked by implied value, fitted on the market's own multiples.</p>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs" aria-label="Views">
+    <a href="#board" data-tab="board">Board</a>
+    <a href="#model" data-tab="model">Model</a>
+    <a href="#live" data-tab="live">Live tokens</a>
+  </nav>
+</header>
+<main id="main" aria-live="polite"></main>
+<footer class="foot">
+  <span id="foot-note"></span>
+  <span>Values are the model's own estimate, never a promise. Nothing here is financial advice.</span>
+</footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
